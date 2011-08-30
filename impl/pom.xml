@@ -72,6 +72,11 @@
     <profiles>
         <profile>
             <id>code-coverage</id>
+            <activation>
+                <property>
+                    <name>code-coverage</name>
+                </property>
+            </activation>
             <build>
                 <plugins>
                     <plugin>
